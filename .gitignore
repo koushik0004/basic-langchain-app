@@ -5,5 +5,5 @@
 # LangGraph
 .langgraph_api/
 
-# .env
-# .claude
+.env
+.claude
