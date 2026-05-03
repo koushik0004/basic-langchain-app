@@ -6,6 +6,10 @@
     ]
   },
   "env": {
-    "ANTHROPIC_API_KEY": "own_API_key here"
-  }
+    "MAX_THINKING_TOKENS": "8000",
+    "DISABLE_NON_ESSENTIAL_MODEL_CALLS": "1",
+    "CLAUDE_CODE_SUBAGENT_MODEL_DISABLED": "claude-haiku-4-5-20251001",
+    "ANTHROPIC_API_KEY": "OWN_API_KEY_HERE"
+  },
+  "autoCompactThreshold": 0.75
 }

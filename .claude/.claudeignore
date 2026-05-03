@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+__pycache__/
+.venv/
+venv/
+.env
+*.pyc
+*.pyo
+
+# Lock files (never needed in context)
+package-lock.json
+yarn.lock
+poetry.lock
+uv.lock
+Pipfile.lock
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+*.egg-info/
+
+# Large data / vector stores
+*.db
+*.sqlite
+chroma_db/
+qdrant_data/
+faiss_index/
+*.pkl
+*.parquet
+
+# Logs & reports
+logs/
+*.log
+htmlcov/
+.coverage
+coverage.xml
+pytest_cache/
+
+# Jupyter (load explicitly if needed)
+*.ipynb
+.ipynb_checkpoints/
+
+# Env examples (sensitive patterns)
+.env.example
+.env.*
+
+# Test fixtures (large)
+tests/fixtures/
+tests/data/
+
+# Assets
+*.png
+*.jpg
+*.gif
+*.svg
+*.ico
+public/

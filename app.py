@@ -24,7 +24,14 @@ chain = prompt_template | llm | StrOutputParser()
 
 # Test the app
 if __name__ == "__main__":
-    user_question = input("Enter your question: ")
-    result = chain.invoke({"user_input": user_question})
-    print(f"\nUser: {user_question}")
-    print(f"Assistant: {result}")
+    print("Chat Assistant (type 'exit' or 'quit' to end)\n")
+    while True:
+        user_question = input("You: ")
+
+        if user_question.lower() in ("exit", "quit"):
+            print("Goodbye!")
+            break
+
+        if user_question.strip():
+            result = chain.invoke({"user_input": user_question})
+            print(f"Assistant: {result}\n")
