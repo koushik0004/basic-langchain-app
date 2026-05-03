@@ -4,6 +4,7 @@
 
 # LangGraph
 .langgraph_api/
+.venv/
 
 .env
 .claude
