@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(conda install *)"
+    ]
+  },
+  "env": {
+    "ANTHROPIC_API_KEY": "own_API_key here"
+  }
+}
