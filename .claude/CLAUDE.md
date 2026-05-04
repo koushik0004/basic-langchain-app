@@ -33,3 +33,7 @@
 - LangGraph agents → @docs/langgraph-patterns.md
 - FastAPI conventions → @docs/fastapi-conventions.md
 - Frontend conventions → @docs/frontend-conventions.md
+
+## Plans
+- Active build plans → @plans/README.md
+- Plans are guidance, not a hard scope cap — features beyond the listed plan are allowed when they serve the same goal. Still follow Agentic Work Rules (ask before multi-file changes / new deps).
